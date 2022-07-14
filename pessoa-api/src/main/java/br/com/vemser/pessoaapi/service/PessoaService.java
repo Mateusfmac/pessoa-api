@@ -48,6 +48,7 @@ public class PessoaService {
         pessoaRecuperada.setCpf(pessoaAtualizar.getCpf());
         pessoaRecuperada.setNome(pessoaAtualizar.getNome());
         pessoaRecuperada.setDataNascimento(pessoaAtualizar.getDataNascimento());
+        pessoaRecuperada.setEmail(pessoaAtualizar.getEmail());
         emailService.updateSimpleMessagePessoa(pessoaRecuperada);
         return objectMapper.convertValue(pessoaAtualizar, PessoaDTO.class);
     }
