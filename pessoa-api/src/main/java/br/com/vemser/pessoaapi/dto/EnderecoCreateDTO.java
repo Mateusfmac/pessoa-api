@@ -1,6 +1,6 @@
 package br.com.vemser.pessoaapi.dto;
 
- import br.com.vemser.pessoaapi.exceptions.entity.TipoEndereco;
+ import br.com.vemser.pessoaapi.entity.TipoEndereco;
  import io.swagger.v3.oas.annotations.media.Schema;
  import lombok.*;
  import javax.validation.constraints.Min;

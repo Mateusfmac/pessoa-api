@@ -1,4 +1,4 @@
-package br.com.vemser.pessoaapi.exceptions.entity;
+package br.com.vemser.pessoaapi.entity;
 
 import java.util.Arrays;
 

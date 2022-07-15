@@ -1,6 +1,6 @@
 package br.com.vemser.pessoaapi.repository;
 
-import br.com.vemser.pessoaapi.exceptions.entity.Pessoa;
+import br.com.vemser.pessoaapi.entity.Pessoa;
 import org.springframework.stereotype.Repository;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
