@@ -1,7 +1,7 @@
 package br.com.vemser.pessoaapi.dto;
 
 
-import br.com.vemser.pessoaapi.entity.Sexo;
+import br.com.vemser.pessoaapi.exceptions.entity.Sexo;
 import lombok.Data;
 
 @Data

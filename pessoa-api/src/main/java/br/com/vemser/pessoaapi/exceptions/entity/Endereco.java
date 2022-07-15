@@ -1,8 +1,6 @@
-package br.com.vemser.pessoaapi.entity;
+package br.com.vemser.pessoaapi.exceptions.entity;
 
 import lombok.*;
-
-import javax.validation.constraints.*;
 
 @AllArgsConstructor
 @NoArgsConstructor

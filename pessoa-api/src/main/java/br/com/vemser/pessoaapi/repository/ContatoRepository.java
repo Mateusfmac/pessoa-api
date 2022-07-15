@@ -1,6 +1,6 @@
 package br.com.vemser.pessoaapi.repository;
 
-import br.com.vemser.pessoaapi.entity.Contato;
+import br.com.vemser.pessoaapi.exceptions.entity.Contato;
 import org.springframework.stereotype.Repository;
 import java.util.ArrayList;
 import java.util.List;
